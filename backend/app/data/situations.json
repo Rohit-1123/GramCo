@@ -1,0 +1,124 @@
+{
+  "situations": [
+    {
+      "id": 1,
+      "label": "Crop Loss",
+      "slug": "crop loss",
+      "keywords": ["crop loss", "flood damage", "drought", "pest attack", "farming loss", "agricultural damage"],
+      "mapped_categories": ["Agriculture"],
+      "description": "I am a farmer and I have suffered crop loss due to natural causes."
+    },
+    {
+      "id": 2,
+      "label": "Child Education",
+      "slug": "child education",
+      "keywords": ["education", "school fees", "college", "scholarship", "study", "tuition"],
+      "mapped_categories": ["Education", "Education & Girl Child", "Women & Child Welfare"],
+      "description": "I need financial support for my child's education."
+    },
+    {
+      "id": 3,
+      "label": "Starting a Business",
+      "slug": "starting a business",
+      "keywords": ["business", "startup", "loan", "entrepreneur", "self-employment", "shop", "enterprise"],
+      "mapped_categories": ["Business & Entrepreneurship"],
+      "description": "I want to start a small business or need working capital."
+    },
+    {
+      "id": 4,
+      "label": "Medical Emergency",
+      "slug": "medical emergency",
+      "keywords": ["hospital", "surgery", "treatment", "medicine", "health", "illness", "disease"],
+      "mapped_categories": ["Health", "Disability & Special Needs"],
+      "description": "I or my family member needs medical treatment or hospitalisation."
+    },
+    {
+      "id": 5,
+      "label": "Housing Support",
+      "slug": "housing support",
+      "keywords": ["house", "home", "shelter", "accommodation", "pucca house", "construction"],
+      "mapped_categories": ["Housing"],
+      "description": "I need support to build or repair my house."
+    },
+    {
+      "id": 6,
+      "label": "Unemployment",
+      "slug": "unemployment",
+      "keywords": ["no job", "work", "employment", "jobless", "earning", "livelihood"],
+      "mapped_categories": ["Skill Development & Employment", "Employment", "Business & Entrepreneurship"],
+      "description": "I am currently unemployed and looking for work or livelihood support."
+    },
+    {
+      "id": 7,
+      "label": "Financial Distress",
+      "slug": "financial distress",
+      "keywords": ["money problem", "debt", "poverty", "low income", "BPL", "below poverty"],
+      "mapped_categories": ["Food & Nutrition", "Insurance & Social Security", "Housing"],
+      "description": "I am facing serious financial difficulty and need government support."
+    },
+    {
+      "id": 8,
+      "label": "Women & Girl Child Welfare",
+      "slug": "women welfare",
+      "keywords": ["women", "girl", "female", "daughter", "maternity", "gender"],
+      "mapped_categories": ["Women & Child Welfare", "Education & Girl Child"],
+      "description": "I need schemes related to the welfare of women or my girl child."
+    },
+    {
+      "id": 9,
+      "label": "Senior Citizen Support",
+      "slug": "senior citizen welfare",
+      "keywords": ["old age", "elderly", "senior", "pension", "retirement", "60 years"],
+      "mapped_categories": ["Senior Citizens"],
+      "description": "I am a senior citizen and need government support or pension."
+    },
+    {
+      "id": 10,
+      "label": "Disability Support",
+      "slug": "disability",
+      "keywords": ["disabled", "physical disability", "hearing impaired", "visually impaired", "wheelchair"],
+      "mapped_categories": ["Disability & Special Needs"],
+      "description": "I am a person with disabilities and need assistive support."
+    },
+    {
+      "id": 11,
+      "label": "Skill Development",
+      "slug": "skill development",
+      "keywords": ["skill", "training", "course", "vocational", "certification", "learn"],
+      "mapped_categories": ["Skill Development & Employment"],
+      "description": "I want to learn new skills or take vocational training."
+    },
+    {
+      "id": 12,
+      "label": "Agriculture Support",
+      "slug": "agriculture support",
+      "keywords": ["farming", "agriculture", "seeds", "fertilizer", "kisan", "irrigation"],
+      "mapped_categories": ["Agriculture"],
+      "description": "I am a farmer and need general agriculture support or subsidies."
+    },
+    {
+      "id": 13,
+      "label": "Food & Nutrition Support",
+      "slug": "food insecurity",
+      "keywords": ["food", "ration", "hunger", "grain", "subsidised food", "annapoorna"],
+      "mapped_categories": ["Food & Nutrition"],
+      "description": "I am struggling to afford food for my family."
+    },
+    {
+      "id": 14,
+      "label": "Accident / Death in Family",
+      "slug": "accident",
+      "keywords": ["accident", "death", "funeral", "widow", "injury", "mishap"],
+      "mapped_categories": ["Insurance & Social Security"],
+      "description": "I or a family member suffered an accident, or there has been a death in the family."
+    },
+    {
+      "id": 15,
+      "label": "Pregnancy & Maternity",
+      "slug": "pregnancy",
+      "keywords": ["pregnancy", "maternity", "newborn", "mother", "lactating", "delivery"],
+      "mapped_categories": ["Women & Child Welfare"],
+      "description": "I am pregnant or a new mother needing health and financial support."
+    }
+  ]
+}

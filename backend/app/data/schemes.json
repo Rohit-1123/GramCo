@@ -1,0 +1,700 @@
+[
+  {
+    "scheme_id": "SCH001",
+    "scheme_name": "PM Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Agriculture",
+    "description": "Provides income support of ₹6,000 per year to all land-holding farmer families across India in three equal instalments of ₹2,000 every four months, directly transferred to their bank accounts.",
+    "eligibility": {
+      "occupation": ["farmer"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": []
+    },
+    "situations_supported": ["crop loss", "agriculture support", "financial distress"],
+    "benefits": [
+      "₹6,000 per year financial assistance in 3 instalments",
+      "Direct benefit transfer (DBT) to bank account",
+      "No intermediary, funds directly deposited",
+      "Covers all land-holding farmer families"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land ownership records (Khasra-Khatauni)",
+      "Bank account details with IFSC",
+      "Mobile number linked with Aadhaar"
+    ],
+    "application_centers": [
+      "Common Service Centres (CSC)",
+      "PM-KISAN portal: pmkisan.gov.in",
+      "Local revenue department / Patwari",
+      "State government agriculture offices"
+    ],
+    "apply_link": "https://pmkisan.gov.in"
+  },
+  {
+    "scheme_id": "SCH002",
+    "scheme_name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Agriculture",
+    "description": "Provides comprehensive insurance coverage for crop loss due to natural calamities, pests and diseases at extremely low premium rates. Farmers pay only 2% for Kharif, 1.5% for Rabi and 5% for commercial/horticultural crops.",
+    "eligibility": {
+      "occupation": ["farmer"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": []
+    },
+    "situations_supported": ["crop loss", "agriculture support"],
+    "benefits": [
+      "Crop insurance at very low premium (1.5–5%)",
+      "Coverage for all natural calamities, pests, diseases",
+      "Post-harvest losses covered for 14 days",
+      "Technology-driven fast claim settlement",
+      "Cashless hospitalisation not applicable — financial compensation for crop loss"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land records (Khasra number)",
+      "Bank passbook copy",
+      "Completed crop insurance application form",
+      "Sowing certificate (if applicable)"
+    ],
+    "application_centers": [
+      "Nearest bank branch",
+      "Common Service Centres (CSC)",
+      "Agriculture department offices",
+      "pmfby.gov.in portal"
+    ],
+    "apply_link": "https://pmfby.gov.in"
+  },
+  {
+    "scheme_id": "SCH003",
+    "scheme_name": "Kisan Credit Card (KCC)",
+    "category": "Agriculture",
+    "description": "Provides short-term credit to farmers for agricultural inputs, post-harvest expenses, allied activities and personal consumption needs at concessional interest rates. Credit limit up to ₹3 lakh at 7% interest (effective 4% with subvention).",
+    "eligibility": {
+      "occupation": ["farmer"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": []
+    },
+    "situations_supported": ["crop loss", "agriculture support", "financial distress"],
+    "benefits": [
+      "Revolving credit up to ₹3 lakh at 7% interest p.a.",
+      "Effective interest rate 4% with prompt repayment subvention",
+      "Covers seeds, fertilisers, pesticides, post-harvest expenses",
+      "Personal accident insurance cover of ₹50,000",
+      "Flexible repayment – aligned with crop seasons"
+    ],
+    "required_documents": [
+      "Aadhaar Card / Voter ID / Passport",
+      "PAN Card",
+      "Land records (Khasra/ROR)",
+      "Two passport-size photographs",
+      "Income proof / Land revenue receipt"
+    ],
+    "application_centers": [
+      "Any nationalised or cooperative bank",
+      "Regional Rural Banks (RRBs)",
+      "NABARD-affiliated institutions"
+    ],
+    "apply_link": "https://www.nabard.org/content1.aspx?id=23&catid=8&mid=530"
+  },
+  {
+    "scheme_id": "SCH004",
+    "scheme_name": "Ayushman Bharat – Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "category": "Health",
+    "description": "World's largest government-funded health assurance scheme offering ₹5 lakh cashless hospitalisation cover per family per year for secondary and tertiary care at empanelled public and private hospitals.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": 100000,
+      "min_age": null,
+      "max_age": null,
+      "location": [],
+      "special": ["bpl", "SECC 2011 listed families"]
+    },
+    "situations_supported": ["medical emergency", "financial distress"],
+    "benefits": [
+      "Up to ₹5 lakh cashless hospitalisation per family per year",
+      "Covers pre and post-hospitalisation expenses",
+      "Over 1,393 medical procedures covered",
+      "Portable benefit across India – use in any empanelled hospital",
+      "No premium paid by beneficiary"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Ayushman Bharat Golden Card (PM-JAY e-Card)",
+      "Family ration card",
+      "SECC 2011 beneficiary verification"
+    ],
+    "application_centers": [
+      "Ayushman Bharat Helpline: 14555",
+      "Nearest Common Service Centre (CSC)",
+      "pmjay.gov.in beneficiary portal",
+      "Any empanelled hospital Arogya Mitra desk"
+    ],
+    "apply_link": "https://beneficiary.nha.gov.in"
+  },
+  {
+    "scheme_id": "SCH005",
+    "scheme_name": "Pradhan Mantri Awas Yojana – Gramin (PMAY-G)",
+    "category": "Housing",
+    "description": "Provides financial assistance to BPL rural households to construct their own pucca houses. Beneficiaries receive ₹1.20 lakh (plain areas) or ₹1.30 lakh (hilly/difficult areas) with MGNREGS labour wages support.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": ["rural", "bpl", "no pucca house"]
+    },
+    "situations_supported": ["housing support", "financial distress"],
+    "benefits": [
+      "₹1.20 lakh grant in plain areas, ₹1.30 lakh in hilly areas",
+      "90/95 person-days MGNREGS wages for construction labour",
+      "Sanitation grant of ₹12,000 under SBM-G",
+      "Piped water connection under Jal Jeevan Mission",
+      "Direct bank transfer in instalments"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "BPL / SECC 2011 registration",
+      "Bank account details",
+      "Land ownership or allotment certificate",
+      "Photograph of existing (kutcha) house"
+    ],
+    "application_centers": [
+      "Gram Panchayat office",
+      "Block Development Officer (BDO)",
+      "District Rural Development Agency (DRDA)",
+      "pmayg.nic.in portal"
+    ],
+    "apply_link": "https://pmayg.nic.in"
+  },
+  {
+    "scheme_id": "SCH006",
+    "scheme_name": "PM Jan Dhan Yojana (PMJDY)",
+    "category": "Insurance & Social Security",
+    "description": "National mission to ensure comprehensive financial inclusion by providing universal banking access. Every account comes with a RuPay debit card offering ₹2 lakh accidental insurance cover and ₹10,000 overdraft facility.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 10,
+      "max_age": null,
+      "location": [],
+      "special": []
+    },
+    "situations_supported": ["financial distress", "accident", "unemployment"],
+    "benefits": [
+      "Zero-balance savings bank account",
+      "RuPay Debit Card with ₹2 lakh accidental insurance",
+      "Life cover of ₹30,000 for eligible beneficiaries",
+      "Overdraft facility up to ₹10,000",
+      "Direct benefit transfer for all government schemes"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Any government-issued photo ID (Voter ID / Passport / Driving Licence)",
+      "Address proof",
+      "One passport-size photograph"
+    ],
+    "application_centers": [
+      "Any nationalised bank branch",
+      "Business Correspondents (Bank Mitras)",
+      "Post offices"
+    ],
+    "apply_link": "https://pmjdy.gov.in"
+  },
+  {
+    "scheme_id": "SCH007",
+    "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "category": "Business & Entrepreneurship",
+    "description": "Provides collateral-free micro-enterprise loans under three categories: Shishu (up to ₹50,000), Kishore (₹50,001–5 lakh), and Tarun (₹5–10 lakh) to non-corporate, non-farm small/micro enterprises.",
+    "eligibility": {
+      "occupation": ["entrepreneur", "self-employed", "small business owner", "street vendor"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": []
+    },
+    "situations_supported": ["starting a business", "unemployment", "financial distress"],
+    "benefits": [
+      "Collateral-free loans up to ₹10 lakh",
+      "Three tiers: Shishu (₹50K), Kishore (₹5L), Tarun (₹10L)",
+      "Competitive interest rates (linked to MCLR)",
+      "No processing fee for Shishu loans",
+      "Mudra RuPay card for business expenses"
+    ],
+    "required_documents": [
+      "Aadhaar Card and PAN Card",
+      "Business plan / project report",
+      "Proof of business address",
+      "Two passport-size photographs",
+      "Bank statements (last 6 months) for existing businesses"
+    ],
+    "application_centers": [
+      "Any public sector or private bank",
+      "Microfinance institutions (MFIs)",
+      "NBFCs and small finance banks",
+      "mudra.org.in"
+    ],
+    "apply_link": "https://www.mudra.org.in"
+  },
+  {
+    "scheme_id": "SCH008",
+    "scheme_name": "PM Kaushal Vikas Yojana (PMKVY)",
+    "category": "Skill Development & Employment",
+    "description": "Flagship skill training scheme enabling Indian youth to take industry-relevant skill training, get certified and earn better livelihood. Offers free short-duration skill training with monetary rewards and third-party certified assessment.",
+    "eligibility": {
+      "occupation": ["student", "unemployed", "labourer"],
+      "income_limit": null,
+      "min_age": 15,
+      "max_age": 45,
+      "location": [],
+      "special": []
+    },
+    "situations_supported": ["skill development", "unemployment"],
+    "benefits": [
+      "Free short-duration skill training (150–300 hours)",
+      "Monetary reward of ₹500–8,000 upon certification",
+      "Industry-recognized certification",
+      "Placement assistance after training",
+      "Training in 300+ job roles across 40+ sectors"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Educational certificates (10th/12th if available)",
+      "Bank account details",
+      "Two passport-size photographs",
+      "Mobile number"
+    ],
+    "application_centers": [
+      "PM Kaushal Kendras across India",
+      "National Skill Development Corporation (NSDC) training centres",
+      "skillindia.gov.in portal",
+      "District Skill Committee offices"
+    ],
+    "apply_link": "https://www.pmkvyofficial.org"
+  },
+  {
+    "scheme_id": "SCH009",
+    "scheme_name": "Atal Pension Yojana (APY)",
+    "category": "Insurance & Social Security",
+    "description": "A guaranteed pension scheme for workers in the unorganised sector. Subscribers receive guaranteed monthly pension of ₹1,000–5,000 after age 60 depending on contribution amount and age at joining.",
+    "eligibility": {
+      "occupation": ["farmer", "labourer", "street vendor", "self-employed", "unemployed"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": 40,
+      "location": [],
+      "special": ["unorganised sector workers", "not income tax payer"]
+    },
+    "situations_supported": ["financial distress", "senior citizen welfare", "unemployment"],
+    "benefits": [
+      "Guaranteed monthly pension of ₹1,000–5,000 after age 60",
+      "Spouse receives same pension on subscriber's death",
+      "Nominee receives full corpus on spouse's death",
+      "Government co-contribution: 50% of contribution (max ₹1,000/year) for first 5 years",
+      "Available to all unorganised sector workers"
+    ],
+    "required_documents": [
+      "Savings bank account",
+      "Aadhaar Card",
+      "Mobile number linked with bank account"
+    ],
+    "application_centers": [
+      "Any bank branch with savings account",
+      "Post offices",
+      "APY mobile app / net banking"
+    ],
+    "apply_link": "https://npscra.nsdl.co.in/scheme-details.php"
+  },
+  {
+    "scheme_id": "SCH010",
+    "scheme_name": "PM Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "category": "Insurance & Social Security",
+    "description": "A one-year renewable life insurance scheme offering ₹2 lakh death cover at just ₹330 per year premium. Covers death due to any reason for people aged 18–50 years having a savings bank account.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": 50,
+      "location": [],
+      "special": ["savings bank account holder"]
+    },
+    "situations_supported": ["accident", "financial distress"],
+    "benefits": [
+      "₹2 lakh life insurance cover at only ₹330/year premium",
+      "Covers death due to any reason (not just accident)",
+      "Auto-renewable annually",
+      "Simple enrolment through bank",
+      "Death claim directly to nominee's bank account"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Active savings bank account",
+      "Signed enrolment-cum-auto-debit mandate form"
+    ],
+    "application_centers": [
+      "Any participating bank branch",
+      "Internet banking / mobile banking",
+      "LIC offices (for LIC PMJJBY)"
+    ],
+    "apply_link": "https://jansuraksha.gov.in/Forms-PMJJBY.aspx"
+  },
+  {
+    "scheme_id": "SCH011",
+    "scheme_name": "PM Suraksha Bima Yojana (PMSBY)",
+    "category": "Insurance & Social Security",
+    "description": "Accident insurance scheme offering ₹2 lakh for accidental death or total permanent disability and ₹1 lakh for partial permanent disability at just ₹20 per year for persons aged 18–70.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": 70,
+      "location": [],
+      "special": ["savings bank account holder"]
+    },
+    "situations_supported": ["accident", "financial distress"],
+    "benefits": [
+      "₹2 lakh cover for accidental death / total permanent disability",
+      "₹1 lakh for partial permanent disability",
+      "Premium: only ₹20 per year",
+      "Auto-debit from savings account",
+      "Simple enrolment via bank or SMS"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Active savings bank account",
+      "Signed enrolment-cum-auto-debit mandate form"
+    ],
+    "application_centers": [
+      "Any participating bank",
+      "Internet / mobile banking",
+      "Common Service Centres"
+    ],
+    "apply_link": "https://jansuraksha.gov.in/Forms-PMSBY.aspx"
+  },
+  {
+    "scheme_id": "SCH012",
+    "scheme_name": "Stand-Up India Scheme",
+    "category": "Business & Entrepreneurship",
+    "description": "Facilitates bank loans between ₹10 lakh and ₹1 crore to at least one SC/ST borrower and one woman borrower per bank branch for setting up greenfield enterprises in manufacturing, services or trading sector.",
+    "eligibility": {
+      "occupation": ["entrepreneur", "self-employed", "small business owner"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": ["SC/ST or woman entrepreneur", "first-time enterprise"]
+    },
+    "situations_supported": ["starting a business", "unemployment"],
+    "benefits": [
+      "Composite loan of ₹10 lakh to ₹1 crore",
+      "Covers 75% of project cost",
+      "Repayment up to 7 years with moratorium of 18 months",
+      "Working capital component included",
+      "RuPay debit card for working capital"
+    ],
+    "required_documents": [
+      "Aadhaar and PAN Card",
+      "Caste certificate (for SC/ST applicants)",
+      "Detailed project report",
+      "Income proof / ITR (last 2 years if applicable)",
+      "No-objection certificate from existing lenders"
+    ],
+    "application_centers": [
+      "All scheduled commercial banks",
+      "standupmitra.in portal (SIDBI)",
+      "District Industries Centre (DIC)"
+    ],
+    "apply_link": "https://www.standupmitra.in"
+  },
+  {
+    "scheme_id": "SCH013",
+    "scheme_name": "Pradhan Mantri Awas Yojana – Urban (PMAY-U)",
+    "category": "Housing",
+    "description": "Provides central assistance to urban poor to enable them to own pucca houses. Offers interest subsidy under Credit Linked Subsidy Scheme (CLSS) – up to ₹2.67 lakh effective subsidy for EWS/LIG beneficiaries.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": 1800000,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": ["urban", "no pucca house", "EWS/LIG/MIG"]
+    },
+    "situations_supported": ["housing support", "financial distress"],
+    "benefits": [
+      "Interest subsidy up to ₹2.67 lakh (EWS/LIG)",
+      "Benami transactions prohibited – house in woman's name",
+      "Covers new construction, purchase and extension",
+      "Loan amount: EWS ₹6L, LIG ₹12L, MIG-I ₹9L, MIG-II ₹12L",
+      "Central assistance of ₹1.5 lakh for in-situ slum redevelopment"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Income certificate",
+      "Address proof",
+      "Property documents",
+      "Bank account details"
+    ],
+    "application_centers": [
+      "Urban Local Bodies (ULB) / Municipal Corporation",
+      "Common Service Centres (CSC)",
+      "pmaymis.gov.in portal",
+      "Participating banks / Housing Finance Companies"
+    ],
+    "apply_link": "https://pmaymis.gov.in"
+  },
+  {
+    "scheme_id": "SCH014",
+    "scheme_name": "National Social Assistance Programme (NSAP)",
+    "category": "Senior Citizens",
+    "description": "Provides social assistance to BPL elderly, widows, disabled persons and bereaved families. Indira Gandhi National Old Age Pension Scheme (IGNOAPS) provides ₹200–500/month to persons aged 60+.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 60,
+      "max_age": null,
+      "location": [],
+      "special": ["bpl", "below poverty line"]
+    },
+    "situations_supported": ["senior citizen welfare", "financial distress"],
+    "benefits": [
+      "Old age pension ₹200/month (60–79 years)",
+      "Old age pension ₹500/month (80+ years)",
+      "Widow pension ₹300/month",
+      "Disability pension ₹300/month",
+      "One-time family benefit ₹20,000 on death of primary breadwinner"
+    ],
+    "required_documents": [
+      "Age proof (birth certificate / school certificate / Aadhaar)",
+      "BPL certificate / ration card",
+      "Bank account details",
+      "Residence certificate",
+      "Two passport-size photographs"
+    ],
+    "application_centers": [
+      "Gram Panchayat / Municipality office",
+      "Block Development Officer (BDO)",
+      "Social Welfare Department offices",
+      "District Collector's office"
+    ],
+    "apply_link": "https://nsap.nic.in"
+  },
+  {
+    "scheme_id": "SCH015",
+    "scheme_name": "Beti Bachao Beti Padhao (BBBP)",
+    "category": "Women & Child Welfare",
+    "description": "National initiative to address declining child sex ratio and related gender discrimination by promoting the survival, protection and education of the girl child. Provides educational support and awareness programs.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": null,
+      "max_age": 18,
+      "location": [],
+      "special": ["girl child", "women"]
+    },
+    "situations_supported": ["women welfare", "child education"],
+    "benefits": [
+      "Sukanya Samriddhi Account with 8.2% interest (tax-free)",
+      "Educational support for girl child",
+      "Scholarships and incentives for continuing education",
+      "Community awareness and gender sensitisation programs",
+      "Financial inclusion support for women"
+    ],
+    "required_documents": [
+      "Girl child's birth certificate",
+      "Parents' Aadhaar Card",
+      "Address proof",
+      "Bank account / post office account details"
+    ],
+    "application_centers": [
+      "Post offices for Sukanya Samriddhi Account",
+      "Banks (authorised for SSY)",
+      "WCD department offices",
+      "Anganwadi centres"
+    ],
+    "apply_link": "https://wcd.nic.in/bbbp-schemes"
+  },
+  {
+    "scheme_id": "SCH016",
+    "scheme_name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "category": "Women & Child Welfare",
+    "description": "Provides maternity benefit of ₹5,000 in three instalments to pregnant women and lactating mothers for the first living child, to partly compensate for wage loss and to improve health and nutrition outcomes.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 19,
+      "max_age": null,
+      "location": [],
+      "special": ["pregnant", "first child", "not a central government employee"]
+    },
+    "situations_supported": ["pregnancy", "women welfare", "financial distress"],
+    "benefits": [
+      "Cash benefit of ₹5,000 in 3 instalments",
+      "1st instalment: ₹1,000 at early pregnancy registration",
+      "2nd instalment: ₹2,000 after minimum one antenatal check-up",
+      "3rd instalment: ₹2,000 after child birth registration and vaccination",
+      "Covers loss of wages during pregnancy and childbirth"
+    ],
+    "required_documents": [
+      "Aadhaar Card (mother and husband)",
+      "MCP (Mother and Child Protection) card",
+      "Bank account details",
+      "Mobile number",
+      "Completed application form (Form 1-A to 1-C)"
+    ],
+    "application_centers": [
+      "Anganwadi Centres",
+      "Primary Health Centres (PHC)",
+      "Approved Health Facilities",
+      "pmmvy-cas.nic.in portal"
+    ],
+    "apply_link": "https://wcd.nic.in/pmmatrivandanayojana"
+  },
+  {
+    "scheme_id": "SCH017",
+    "scheme_name": "National Rural Livelihood Mission (NRLM) – Aajeevika",
+    "category": "Business & Entrepreneurship",
+    "description": "Aims to reduce poverty by enabling poor households to access profitable occupations and social protection through Self-Help Groups (SHGs). Provides revolving funds, bank credit linkages and skill training to rural poor.",
+    "eligibility": {
+      "occupation": ["farmer", "labourer", "homemaker", "unemployed"],
+      "income_limit": 100000,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": ["rural", "bpl"]
+    },
+    "situations_supported": ["unemployment", "financial distress", "skill development", "starting a business"],
+    "benefits": [
+      "Revolving fund of ₹10,000–15,000 per SHG",
+      "Bank credit linkage: ₹1–10 lakh per SHG",
+      "Interest subvention: 7% or 4% for NE states",
+      "Skill development and employability training",
+      "Community managed social security through SHGs"
+    ],
+    "required_documents": [
+      "Aadhaar Card and voter ID",
+      "BPL / SECC ration card",
+      "SHG membership proof",
+      "Bank account (SHG group account)",
+      "Village panchayat resolution"
+    ],
+    "application_centers": [
+      "Block Mission Management Unit (BMMU)",
+      "Gram Panchayat",
+      "State Rural Livelihood Mission offices",
+      "aajeevika.gov.in"
+    ],
+    "apply_link": "https://aajeevika.gov.in"
+  },
+  {
+    "scheme_id": "SCH018",
+    "scheme_name": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+    "category": "Food & Nutrition",
+    "description": "Provides 5 kg of free foodgrain (rice/wheat) per person per month to all National Food Security Act (NFSA) beneficiaries, covering about 80 crore people across India under the One Nation One Ration Card scheme.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": null,
+      "max_age": null,
+      "location": [],
+      "special": ["NFSA beneficiary", "ration card holder"]
+    },
+    "situations_supported": ["food insecurity", "financial distress"],
+    "benefits": [
+      "5 kg free foodgrain (rice/wheat/millets) per person per month",
+      "Portable benefit under One Nation One Ration Card",
+      "No cost to beneficiary – completely free",
+      "Covers approx. 80 crore beneficiaries nationwide",
+      "Available at any PDS shop across India with Aadhaar"
+    ],
+    "required_documents": [
+      "Ration Card (NFSA)",
+      "Aadhaar Card for biometric authentication",
+      "Mobile number linked to Aadhaar (for OTP-based)"
+    ],
+    "application_centers": [
+      "Fair Price Shop (PDS/Ration shop)",
+      "State Food Department offices",
+      "nfsa.gov.in"
+    ],
+    "apply_link": "https://nfsa.gov.in"
+  },
+  {
+    "scheme_id": "SCH019",
+    "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "category": "Women & Child Welfare",
+    "description": "Provides free LPG connections to BPL women to protect health and reduce indoor air pollution from use of traditional cooking fuels. Includes free connection, first refill and hotplate to BPL households under SECC 2011.",
+    "eligibility": {
+      "occupation": [],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": ["women", "bpl", "no existing LPG connection"]
+    },
+    "situations_supported": ["women welfare", "financial distress"],
+    "benefits": [
+      "Free LPG connection (deposit-free)",
+      "First refill cylinder free",
+      "Free hotplate/stove",
+      "Protection from indoor air pollution",
+      "Loan facility for first refill (repaid via refill subsidy)"
+    ],
+    "required_documents": [
+      "Aadhaar Card (applicant – woman of the household)",
+      "BPL / SECC 2011 certificate",
+      "Ration card with family members listed",
+      "Bank account details",
+      "Self-declaration form (GK/PMUY-01)"
+    ],
+    "application_centers": [
+      "Nearest LPG distributor (HP / Bharat / Indane Gas)",
+      "myscheme.gov.in",
+      "pmuy.gov.in portal"
+    ],
+    "apply_link": "https://www.pmuy.gov.in"
+  },
+  {
+    "scheme_id": "SCH020",
+    "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS)",
+    "category": "Employment",
+    "description": "Legally guarantees 100 days of wage employment per financial year to every rural household whose adult members volunteer to do unskilled manual work. Provides unemployment allowance if work is not provided within 15 days.",
+    "eligibility": {
+      "occupation": ["farmer", "labourer", "unemployed", "homemaker"],
+      "income_limit": null,
+      "min_age": 18,
+      "max_age": null,
+      "location": [],
+      "special": ["rural household"]
+    },
+    "situations_supported": ["unemployment", "financial distress", "crop loss"],
+    "benefits": [
+      "Guaranteed 100 days of employment per household per year",
+      "Statutory minimum wages paid (state-specific)",
+      "Unemployment allowance if work denied within 15 days",
+      "Work provided within 5 km of household",
+      "Payment directly to bank/post office account within 15 days"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Job card (issued free by Gram Panchayat)",
+      "Bank account or post office account",
+      "Residence proof"
+    ],
+    "application_centers": [
+      "Gram Panchayat office",
+      "Block Programme Officer",
+      "nregs.nic.in portal (for grievances)",
+      "MGNREGA Ombudsman"
+    ],
+    "apply_link": "https://nregs.nic.in"
+  }
+]
