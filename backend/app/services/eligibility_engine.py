@@ -119,7 +119,7 @@ def pre_filter_schemes(
         if not _age_matches(eligibility.get("min_age"), eligibility.get("max_age"), user.age):
             continue
 
-        # Soft occupation & situation scoring (keep if at least one passes)
+        # Occupation match
         occupation_ok = _occupation_matches(
             eligibility.get("occupation", []), user.occupation
         )
@@ -133,7 +133,16 @@ def pre_filter_schemes(
             situation,
         )
 
-        if occupation_ok or category_ok or situation_tag_ok:
+        # When a situation is specified the scheme must match both occupation
+        # AND be relevant to that situation (by category or situation tag).
+        # When no situation is given, occupation alone is sufficient.
+        situation_context_ok = category_ok or situation_tag_ok
+        if situation:
+            passes = occupation_ok and situation_context_ok
+        else:
+            passes = occupation_ok or category_ok or situation_tag_ok
+
+        if passes:
             if hasattr(scheme, "__dict__"):
                 s_dict = {
                     "scheme_id": scheme.id,

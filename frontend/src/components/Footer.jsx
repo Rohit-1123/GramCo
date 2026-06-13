@@ -30,6 +30,7 @@ export default function Footer() {
               <li><Link to="/schemes" onClick={scrollTop} className="hover:text-white transition-colors">Browse All Schemes</Link></li>
               <li><Link to="/situations" onClick={scrollTop} className="hover:text-white transition-colors">Search by Situation</Link></li>
               <li><Link to="/eligibility" onClick={scrollTop} className="hover:text-white transition-colors">Check Eligibility</Link></li>
+              <li><Link to="/privacy-policy" onClick={scrollTop} className="hover:text-white transition-colors">Privacy & Terms</Link></li>
             </ul>
           </div>
 

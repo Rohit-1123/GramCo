@@ -46,6 +46,7 @@ export default function SituationSearch() {
   }
 
   const handleCardClick = (sit) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
     setSelected(sit.slug)
     setCustomInput('')
     handleSearch(sit.slug)

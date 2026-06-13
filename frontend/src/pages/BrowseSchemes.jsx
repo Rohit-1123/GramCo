@@ -36,6 +36,8 @@ export default function BrowseSchemes() {
 
   const categories = ['All', ...Array.from(new Set(schemes.map((s) => s.category))).sort()]
 
+  const scrollTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* Header */}
@@ -73,9 +75,10 @@ export default function BrowseSchemes() {
         {categories.map((cat) => (
           <button
             key={cat}
-            onClick={() =>
+            onClick={() => {
+              scrollTop()
               setSearchParams(cat === 'All' ? {} : { category: cat })
-            }
+            }}
             className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
               activeCategory === cat
                 ? 'bg-blue-800 text-white shadow'
@@ -109,7 +112,11 @@ export default function BrowseSchemes() {
           <div className="text-5xl mb-4">🔍</div>
           <p className="text-gray-600 font-medium">No schemes found.</p>
           <button
-            onClick={() => { setSearch(''); setSearchParams({}) }}
+            onClick={() => {
+              scrollTop()
+              setSearch('')
+              setSearchParams({})
+            }}
             className="mt-4 btn-outline"
           >
             Clear filters

@@ -69,6 +69,34 @@ export const CATEGORY_CONFIG = {
     border: 'border-emerald-200',
     hero: 'from-emerald-500 to-emerald-700',
   },
+  Education: {
+    icon: '📚',
+    bg: 'bg-purple-100',
+    text: 'text-purple-800',
+    border: 'border-purple-200',
+    hero: 'from-purple-500 to-purple-700',
+  },
+  'Water & Sanitation': {
+    icon: '💧',
+    bg: 'bg-cyan-100',
+    text: 'text-cyan-800',
+    border: 'border-cyan-200',
+    hero: 'from-cyan-500 to-cyan-700',
+  },
+  Energy: {
+    icon: '☀️',
+    bg: 'bg-amber-100',
+    text: 'text-amber-800',
+    border: 'border-amber-200',
+    hero: 'from-amber-500 to-amber-600',
+  },
+  'Digital Literacy': {
+    icon: '💻',
+    bg: 'bg-violet-100',
+    text: 'text-violet-800',
+    border: 'border-violet-200',
+    hero: 'from-violet-500 to-violet-700',
+  },
 }
 
 export function getCategoryConfig(category) {

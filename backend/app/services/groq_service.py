@@ -57,10 +57,11 @@ def _build_eligibility_prompt(
 
 ## Instructions
 1. Carefully evaluate each scheme's eligibility rules against the citizen profile.
-2. Select ONLY the schemes the citizen is likely eligible for.
-3. For each selected scheme, write a short, friendly eligibility reason in 1–2 sentences that clearly explains WHY they qualify.
-4. Also write a brief overall summary (2–3 sentences) highlighting the most impactful schemes.
-5. Return ONLY a valid JSON object — no markdown, no explanation outside the JSON.
+2. **If a specific situation is stated (not "General / Not specified"), only recommend schemes that are directly relevant to that situation** — e.g. if the situation is "Education", recommend only education-related schemes; if it is "Healthcare", only healthcare-related schemes. Do not include schemes unrelated to the stated situation.
+3. Select ONLY the schemes the citizen is likely eligible for, satisfying BOTH their occupation/income/age profile AND the stated situation.
+4. For each selected scheme, write a short, friendly eligibility reason in 1–2 sentences that clearly explains WHY they qualify.
+5. Also write a brief overall summary (2–3 sentences) highlighting the most impactful schemes.
+6. Return ONLY a valid JSON object — no markdown, no explanation outside the JSON.
 
 ## Required JSON Output Format
 {{

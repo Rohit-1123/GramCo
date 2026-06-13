@@ -33,6 +33,7 @@ const INITIAL_PROFILE = { age: '', income: '', occupation: '', location: '' }
 export default function EligibilityCheck() {
   const [step, setStep] = useState(1)
   const [profile, setProfile] = useState(INITIAL_PROFILE)
+  const [otherOccupation, setOtherOccupation] = useState('')
   const [situation, setSituation] = useState('')
   const [situations, setSituations] = useState([])
   const [results, setResults] = useState(null)
@@ -46,7 +47,8 @@ export default function EligibilityCheck() {
   }, [])
 
   const profileValid =
-    profile.age && profile.income && profile.occupation && profile.location
+    profile.age && profile.income && profile.occupation && profile.location &&
+    (profile.occupation !== 'Other' || otherOccupation.trim())
 
   const handleProfileSubmit = (e) => {
     e.preventDefault()
@@ -63,7 +65,9 @@ export default function EligibilityCheck() {
         user_profile: {
           age: parseInt(profile.age, 10),
           income: parseInt(profile.income, 10),
-          occupation: profile.occupation.toLowerCase().replace(' / ', '/').replace(' (salaried)', ''),
+          occupation: profile.occupation === 'Other'
+            ? otherOccupation.trim().toLowerCase()
+            : profile.occupation.toLowerCase().replace(' / ', '/').replace(' (salaried)', ''),
           location: profile.location,
         },
         situation: situation || null,
@@ -83,6 +87,7 @@ export default function EligibilityCheck() {
   const reset = () => {
     setStep(1)
     setProfile(INITIAL_PROFILE)
+    setOtherOccupation('')
     setSituation('')
     setResults(null)
     setError('')
@@ -145,7 +150,10 @@ export default function EligibilityCheck() {
             <Field label="Occupation" required>
               <select
                 value={profile.occupation}
-                onChange={(e) => setProfile({ ...profile, occupation: e.target.value })}
+                onChange={(e) => {
+                  setProfile({ ...profile, occupation: e.target.value })
+                  if (e.target.value !== 'Other') setOtherOccupation('')
+                }}
                 className="input-field"
                 required
               >
@@ -154,6 +162,16 @@ export default function EligibilityCheck() {
                   <option key={o} value={o}>{o}</option>
                 ))}
               </select>
+              {profile.occupation === 'Other' && (
+                <textarea
+                  className="input-field mt-2 resize-none"
+                  rows={3}
+                  placeholder="Describe your occupation or keywords (e.g. fisher, carpenter, priest, tribal artisan…)"
+                  value={otherOccupation}
+                  onChange={(e) => setOtherOccupation(e.target.value)}
+                  required
+                />
+              )}
             </Field>
 
             <Field label="State / Location" required>
