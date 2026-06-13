@@ -1,10 +1,17 @@
 import axios from 'axios'
 
+const API_URL =
+  import.meta.env.VITE_API_URL || 'http://localhost:8000';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: `${API_URL}/api`,
   timeout: 60000,
-  headers: { 'Content-Type': 'application/json' },
-})
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
+export default api;
 
 export const getAllSchemes = (skip = 0, limit = 100) =>
   api.get('/schemes', { params: { skip, limit } })
