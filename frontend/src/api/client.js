@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://gramco-backend.onrender.com',
+  baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
   timeout: 60000,
   headers: {
     'Content-Type': 'application/json',

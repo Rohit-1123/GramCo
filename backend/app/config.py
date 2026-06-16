@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     APP_TITLE: str = "GramCo – Government Scheme Discovery API"
     APP_VERSION: str = "1.0.0"
     DEBUG: bool = False
-    ALLOWED_ORIGINS: list[str] = ["http://localhost:3000", "http://localhost:5173"]
+    ALLOWED_ORIGINS: list[str] = ["*"]
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
